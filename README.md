@@ -2,7 +2,7 @@
 
 # HMM Variant Detector
 
-A Hidden Markov Model-based package for detecting A->G variants in NGS sequencing data.
+An unsupervised Hidden Markov Model-based package for detecting A->G variants in NGS sequencing data.
 
 ## Features
 
