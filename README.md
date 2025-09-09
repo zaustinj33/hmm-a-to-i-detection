@@ -1,5 +1,5 @@
 # File: README.md
-"""
+
 # HMM Variant Detector
 
 A Hidden Markov Model-based package for detecting A->G variants in NGS sequencing data.
@@ -11,6 +11,12 @@ A Hidden Markov Model-based package for detecting A->G variants in NGS sequencin
 - Forward algorithm for likelihood computation
 - Viterbi algorithm for state sequence decoding
 - Pure NumPy implementation for performance
+
+## Wishlist
+
+- additional hidden states, eg, mapQ, PHRED, strand bias, etc
+- bed output
+- igv visualizations
 
 ## Installation
 
@@ -42,4 +48,3 @@ print(f"Log likelihood: {likelihood}")
 ## License
 
 MIT License
-"""
